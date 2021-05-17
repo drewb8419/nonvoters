@@ -1,0 +1,46 @@
+Model   Metrics   file   -   A   short   document   of   the   final   model   features,   
+parameters, hyperparameters,   and   performance   metrics.   This   can   be   a   CSV   
+file   or   txt   file,   just make   it   as   easy   to   read   as   possible.
+
+Random Forest Model
+
+	Parameters
+
+	total features=294
+	train rows = 4668
+	test rows = 1168
+	random state = 42	
+
+	Hyperparameters
+
+	bootstrap=False,
+    	class_weight='balanced', 
+    	max_depth=5,
+    	max_features='sqrt', 
+    	min_samples_leaf=1, 
+    	min_samples_split=50, 
+    	n_estimators=200
+
+	Performance metrics
+
+	Test Accuracy=0.897
+	Test Precision=0.732
+	Test Recall=0.739
+
+	Confusion matrix:
+	[[881 61]
+	[ 59 167]]
+
+KMeans Clustering
+
+	Parameters	
+
+
+	Hyperparameters
+
+	n_clusters=5
+
+	Performance metrics
+
+	inertia_=217933	(sum of squares)
+	silhouette_score=0.03264937898558811
