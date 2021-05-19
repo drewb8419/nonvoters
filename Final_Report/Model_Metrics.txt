@@ -1,15 +1,4 @@
-Model   Metrics   file   -   A   short   document   of   the   final   model   features,   
-parameters, hyperparameters,   and   performance   metrics.   This   can   be   a   CSV   
-file   or   txt   file,   just make   it   as   easy   to   read   as   possible.
-
 Random Forest Model
-
-	Parameters
-
-	total features=294
-	train rows = 4668
-	test rows = 1168
-	random state = 42	
 
 	Hyperparameters
 
@@ -32,9 +21,6 @@ Random Forest Model
 	[ 59 167]]
 
 KMeans Clustering
-
-	Parameters	
-
 
 	Hyperparameters
 
